@@ -1,0 +1,136 @@
+.calc {
+
+    width: 40rem;
+    height: 40rem;
+    display: grid;
+    grid-template-columns: repeat 4(1fr);
+    grid-template-rows: repeat 6(1fr);
+    grid-gap: none;
+}
+
+.calc > div {
+
+    border: 2px solid grey;
+}
+
+.numbcalc {
+
+    grid-column: 1/ span 4;
+    grid-row: 1;
+    background-color: rgb(47, 47, 47);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.tast {
+
+    grid-row: 2;
+    grid-column: 1;
+    background-color: rgb(158, 153, 153);
+
+}
+
+.tast- {
+
+    grid-row: 2;
+    grid-column: 2;
+    background-color: rgb(158, 153, 153);
+
+}
+
+.tastx {
+
+    grid-row: 2;
+    grid-column: 3;
+    background-color: rgb(158, 153, 153);
+
+}
+
+.tastresult {
+
+    grid-row: 2;
+    grid-column: 4;
+    background-color: rgb(158, 153, 153);
+
+}
+
+.no_7 {
+
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.no_8 {
+
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.no_9 {
+
+    grid-row: 3;
+    grid-column: 3;
+}
+
+.no_4 {
+
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.no_5 {
+
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.no_6 {
+
+    grid-row: 4;
+    grid-column: 3;
+}
+
+.no_1 {
+
+    grid-row: 5;
+    grid-column: 1;
+}
+
+.no_2 {
+
+    grid-row: 5;
+    grid-column: 2;
+}
+
+.no_3 {
+
+    grid-row: 5;
+    grid-column: 3;
+}
+
+.equal_sign {
+    grid-row: 2/ 7;
+    grid-column: 4;
+    background-color: red;
+    border-bottom-right-radius: 15px;
+}
+
+.no_0 {
+
+    grid-row: 6;
+    grid-column: 1;
+    border-bottom-left-radius: 15px;
+
+}
+
+.divisive {
+    grid-row: 6;
+    grid-column: 2;
+
+}
+
+.AC {
+
+    grid-column: 3;
+    grid-row: 6;
+}
