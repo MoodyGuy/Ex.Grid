@@ -11,6 +11,10 @@
 .calc > div {
 
     border: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    align-items: center;
 }
 
 .numbcalc {
@@ -20,6 +24,8 @@
     background-color: rgb(47, 47, 47);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    color:rgb(158, 153, 153);
+    
 }
 
 .tast {
